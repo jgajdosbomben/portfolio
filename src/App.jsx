@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className={`"w-full h-full min-h-[100vh] bg-white" ${darkMode && "dark"}`}>
-      <div className="w-full h-full min-h-[100vh] bg-white">
+      <div className="w-full h-full min-h-[100vh] bg-gradient-to-tr from-[#ddaacc] via-[#74777e] to-[#b4b7be]">
         <div className="dark:bg-gradient-to-tr from-[#cc29b9] via-[#030a1c] to-[#05174e]">
           <Navbar
             darkMode={darkMode}
@@ -29,10 +29,10 @@ function App() {
             toggleMenu={toggleMenu}
             toggleTheme={toggleTheme}
           />
-          <section 
-          id="home"
-          className="px-0 lg:px-5 lg:py-0 2xl:px-40 py-10">
-        <Header/>
+          <section
+            id="home"
+            className="px-0 lg:px-5 lg:py-0 2xl:px-40 py-10">
+            <Header />
           </section>
         </div>
       </div>
