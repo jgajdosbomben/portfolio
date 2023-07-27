@@ -6,12 +6,14 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
     <div className="px-0 2x1:px-40">
       <div className="w-full items-center justify-between py-4 px-4 md:px-12">
-        <div className="flex items-center justify-between w-full">
-          <a
-            href="/"
-            className="text-2xl font-bold text-pink-500 cursor-pointer">
-            Jenny
-          </a>
+        <div className="flex items-center justify-end w-full">
+          <div className="flex items-center justify-start w-full">
+            <a
+              href="/"
+              className="text-2xl font-bold text-black dark:text-white cursor-pointer">
+              Jennifer.
+            </a>
+          </div>
           <ul className="hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200">
             <li className="cursor-pointer hover:text-purple-900">
               <a href="#home">Home</a>
@@ -26,7 +28,10 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               <a href="#contact">Contact</a>
             </li>
           </ul>
-          <button onClick={toggleTheme} className="p-2">
+          <div className="flex items-center justify-end basis-28"></div>
+          <button
+            onClick={toggleTheme}
+            className="p-2">
             {darkMode ? (
               <FiSun
                 size={24}
