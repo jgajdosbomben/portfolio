@@ -6,7 +6,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
     <div className="px-0 2x1:px-40">
       <div className="w-full items-center justify-between py-4 px-4 md:px-12">
-        <div className="flex items-center justify-end w-full">
+        <div className="flex items-center justify-between w-full">
           <div className="flex items-center justify-start w-full">
             <a
               href="/"
@@ -14,9 +14,15 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               Jennifer.
             </a>
           </div>
-          <ul className="hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200">
+          <ul className="hidden md:flex gap-6 text-lg text-slate-800 dark:text-gray-200">
             <li className="cursor-pointer hover:text-purple-900">
               <a href="#home">Home</a>
+            </li>
+            <li className="cursor-pointer hover:text-purple-900">
+              <a href="#about">About</a>
+            </li>
+            <li className="cursor-pointer hover:text-purple-900">
+              <a href="#projects">Education</a>
             </li>
             <li className="cursor-pointer hover:text-purple-900">
               <a href="#projects">Projects</a>
