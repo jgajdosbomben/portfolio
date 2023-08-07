@@ -5,16 +5,16 @@ import { MdOutlineClose } from "react-icons/md";
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
     <div className="px-0 2x1:px-40">
-      <div className="w-full items-center justify-between py-4 px-4 md:px-12">
+      <div className="w-full items-center justify-between py-4 px-4 md:px-12 bg-gradient-to-r from-[#691194] from-10%  via-[#6e47c3] via-30% to-[#febbcc] to-90%">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center justify-start w-full">
             <a
               href="/"
-              className="text-3xl font-bold font-comicneue tracking-wide text-black dark:text-white cursor-pointer">
-              Jennifer.
+              className="text-2xl font-bold font-comicneue tracking-wide text-black dark:text-white cursor-pointer">
+              Portfolio
             </a>
           </div>
-          <ul className="hidden md:flex font-comicneue tracking-wide gap-6 text-2xl text-slate-800 dark:text-gray-200">
+          <ul className="hidden md:flex font-comicneue tracking-wide gap-6 text-xl text-slate-800 dark:text-gray-200">
             <li className="cursor-pointer hover:text-purple-500 hover:underline decoration-wavy dark:hover:text-purple-300">
               <a href="#home">Home</a>
             </li>
