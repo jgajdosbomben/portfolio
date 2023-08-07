@@ -22,8 +22,10 @@ function App() {
 
   return (
     <div className={`"w-full h-full min-h-[100vh] bg-white" ${darkMode && "dark"}`}>
-      <div className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-        <div className="dark:bg-gradient-to-tr from-[#cc29b9] via-[#030a1c] to-[#21054e]">
+      <div className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#fcf4f4]">
+      {/* bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed] */}
+        <div className="dark:bg-slate-900">
+        {/* bg-gradient-to-tr from-[#cc29b9] via-[#030a1c] to-[#21054e] */}
           <Navbar
             darkMode={darkMode}
             isOpen={isOpen}
@@ -38,13 +40,13 @@ function App() {
           <section
             id="about"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-gradient-to-tr from-[#030a1c] via-[#941d87] via-80% to-[#21054e]">
+            className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0">
             <About />
           </section>
           <section
             id="education"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-gradient-to-tr from-[#030a1c] via-[#941d87] via-80% to-[#21054e]">
+            className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0">
             <Education />
           </section>
           <section
