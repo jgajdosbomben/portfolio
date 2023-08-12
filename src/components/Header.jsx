@@ -3,13 +3,13 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-between lg:flex-row px-8 md:px-10 gap-10 2xl:gap-20 py-20">
+    <div className="w-full flex flex-col items-start content-start justify-between ">
       {/* <div className="flex flex-col mb-20 lg:mb-0"> */}
-      <div className="flex flex-row justify-between items-start">
+      <div className="flex flex-col justify-between items-start">
         <div className="">
           <h1 className="outer-headings text-6xl font-pacifico  text-black dark:text-white">Jennifer Gajdos-Bomben</h1>
           <br />
-          <h1 className="text-3xl">
+          <h1 className="text-3xl dark:text-white">
             I am a <br />
             <div className="inner-headings dark:text-white">
               <span className="text-black dark:text-white">
