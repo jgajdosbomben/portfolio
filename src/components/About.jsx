@@ -20,23 +20,7 @@ const About = () => {
             I have recently completed a full stack developer program.{" "}
           </p>
                   </div>
-                  <div className="outer-headings dark:text-white">
-                    <h1>
-                      I am a 
-                      <div className="inner-headings dark:text-white">
-                        <span className="text-black dark:text-white">
-                          Full Stack Developer <br />
-                          Front End Developer <br />
-                          Back End Developer <br />
-                          Record and Information Manager <br />
-                          Dancer <br />
-                          Mother <br />
-                          Singer <br />
-                          Pianist <br />
-                          </span>
-                      </div>
-                    </h1>
-                  </div>
+                 
       </div>
     </div>
   );
