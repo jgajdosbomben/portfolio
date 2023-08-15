@@ -10,11 +10,14 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           <div className="flex items-center justify-start w-full">
             <a
               href="/"
-              className="text-2xl font-bold font-comicneue tracking-wide text-white cursor-pointer">
-              Portfolio
+              className="text-2xl font-semi-bold font-montserrat tracking-wide text-white cursor-pointer">
+               <img
+          src="/src/assets/JGB.png"
+          alt="personal-image"
+          className="object-cover w-20 h-10 placeholder:-top-5 md:-top-10 flex-shrink-1   rounded-xl"></img> 
             </a>
           </div>
-          <ul className="hidden md:flex font-comicneue tracking-wide gap-6 text-xl text-white">
+          <ul className="hidden md:flex font-semi-bold font-montserrat tracking-wide gap-6 text-xl text-white">
             <li className="cursor-pointer hover:text-slate-950 hover:underline decoration-wavy dark:hover:text-slate-950">
               <a href="#home">Home</a>
             </li>
