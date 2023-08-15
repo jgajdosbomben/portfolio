@@ -326,6 +326,7 @@ export default {
       dancingscript: ['"Dancing Script"', '"Times New Roman"',],
       pacifico: ['"Pacifico"', '"Times New Roman"',],
       parisienne: ['"Parisienne"', '"Times New Roman"',],
+      montserrat: ['"Montserrat"', '"Times New Roman"',],
         },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
