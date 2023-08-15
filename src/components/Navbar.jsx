@@ -11,10 +11,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             <a
               href="/"
               className="text-2xl font-semi-bold font-montserrat tracking-wide text-white cursor-pointer">
-               <img
-          src="/src/assets/JGB.png"
-          alt="personal-image"
-          className="object-cover w-20 h-10 placeholder:-top-5 md:-top-10 flex-shrink-1   rounded-xl"></img> 
+               Jennifer GB
             </a>
           </div>
           <ul className="hidden md:flex font-semi-bold font-montserrat tracking-wide gap-6 text-xl text-white">
