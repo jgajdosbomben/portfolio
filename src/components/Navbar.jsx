@@ -6,13 +6,13 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
     <div className="px-0 2x1:px-40">
       <div className="w-full items-center justify-between py-4 px-4 md:px-12 bg-black">
-      {/* bg-gradient-to-r from-[#3f0539] from-15%  via-[#0a7694] via-40% to-[#a81588] to-90% */}
+        {/* bg-gradient-to-r from-[#3f0539] from-15%  via-[#0a7694] via-40% to-[#a81588] to-90% */}
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center justify-start w-full">
             <a
               href="/"
               className="text-base font-semi-bold font-montserrat tracking-wide text-white cursor-pointer">
-               Jennifer GB
+              Jennifer GB
             </a>
           </div>
           <ul className="hidden md:flex font-semi-bold font-montserrat tracking-wide gap-6 text-base text-white">
@@ -62,11 +62,11 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               onClick={toggleMenu}>
               <FiMenu
                 size={26}
-                className={`${isOpen ? "hidden" : "block"} text-gray-800 dark:text-gray-50 font-comicneue`}
+                className={`${isOpen ? "hidden" : "block"} text-white dark:text-gray-50 font-comicneue`}
               />
               <MdOutlineClose
                 size={26}
-                className={`${isOpen ? "block" : "hidden"} h-6 w-6 dark:text-gray-50 font-comicneue`}
+                className={`${isOpen ? "block" : "hidden"} h-6 w-6 text-white dark:white font-montserrat`}
               />{" "}
             </button>
           </div>
@@ -75,7 +75,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
         <div
           className={`${isOpen ? "block pt-4" : "hidden"} md:hidden`}
           id="mobile-menu">
-          <div className="flex flex-col gap-4 text-md font-comicneue text-gray-700 dark:text-neutral-200">
+          <div className="flex flex-col gap-4 text-md font-montserrat text-white dark:white">
             <a
               href="#home"
               onClick={toggleMenu}
@@ -100,12 +100,12 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               className="cursor-pointer hover:text-purple-500 hover:underline decoration-wavy dark:hover:text-purple-300">
               Projects
             </a>
-            <a
+            {/* <a
               href="#skills"
               onClick={toggleMenu}
               className="cursor-pointer hover:text-purple-500 hover:underline decoration-wavy dark:hover:text-purple-300">
               Skills
-            </a>
+            </a> */}
             <a
               href="#contact"
               onClick={toggleMenu}
