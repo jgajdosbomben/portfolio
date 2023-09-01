@@ -11,27 +11,27 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           <div className="flex items-center justify-start w-full">
             <a
               href="/"
-              className="text-base font-semi-bold font-montserrat tracking-wide text-white cursor-pointer">
+              className="text-lg font-semi-bold font-montserrat tracking-wide text-white cursor-pointer hover:text-rose-200">
               Jennifer GB
             </a>
           </div>
-          <ul className="hidden md:flex font-semi-bold font-montserrat tracking-wide gap-6 text-base text-white">
-            <li className="cursor-pointer hover:text-slate-950 hover:underline decoration-wavy dark:hover:text-slate-950">
+          <ul className="hidden md:flex font-semi-bold font-montserrat tracking-wide gap-6 text-lg text-white">
+            <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy dark:hover:text-rose-200">
               <a href="#home">Home</a>
             </li>
-            <li className="cursor-pointer hover:text-slate-950 hover:underline decoration-wavy  dark:hover:text-slate-950">
+            <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
               <a href="#about">About</a>
             </li>
-            <li className="cursor-pointer hover:text-slate-950 hover:underline decoration-wavy  dark:hover:text-slate-950">
+            <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
               <a href="#projects">Education</a>
             </li>
-            <li className="cursor-pointer hover:text-slate-950 hover:underline decoration-wavy  dark:hover:text-slate-950">
+            <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
               <a href="#projects">Projects</a>
             </li>
-            {/* <li className="cursor-pointer hover:text-slate-950  hover:underline decoration-wavy dark:hover:text-slate-950">
+            {/* <li className="cursor-pointer hover:text-rose-200  hover:underline decoration-wavy dark:hover:text-rose-200">
               <a href="#skills">Skills</a>
             </li> */}
-            <li className="cursor-pointer hover:text-slate-950  hover:underline decoration-wavy dark:hover:text-slate-950">
+            <li className="cursor-pointer hover:text-rose-200  hover:underline decoration-wavy dark:hover:text-rose-200">
               <a href="#contact">Contact</a>
             </li>
           </ul>
@@ -48,7 +48,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             ) : (
               <FiMoon
                 size={24}
-                color={"black"}
+                color={"white"}
                 className="cursor-pointer"
               />
             )}
@@ -62,7 +62,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               onClick={toggleMenu}>
               <FiMenu
                 size={26}
-                className={`${isOpen ? "hidden" : "block"} text-white dark:text-gray-50 font-comicneue`}
+                className={`${isOpen ? "hidden" : "block"} text-white dark:text-gray-50 font-montserrat`}
               />
               <MdOutlineClose
                 size={26}
@@ -79,37 +79,37 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             <a
               href="#home"
               onClick={toggleMenu}
-              className="cursor-pointer hover:text-purple-500 hover:underline decoration-wavy dark:hover:text-purple-300">
+              className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy dark:hover:text-rose-200">
               Home
             </a>
             <a
               href="#about"
               onClick={toggleMenu}
-              className="cursor-pointer hover:text-purple-500 hover:underline decoration-wavy dark:hover:text-purple-300">
+              className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy dark:hover:text-rose-200">
               About
             </a>
             <a
               href="#education"
               onClick={toggleMenu}
-              className="cursor-pointer hover:text-purple-500 hover:underline decoration-wavy dark:hover:text-purple-300">
+              className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy dark:hover:text-rose-200">
               Education
             </a>
             <a
               href="#projects"
               onClick={toggleMenu}
-              className="cursor-pointer hover:text-purple-500 hover:underline decoration-wavy dark:hover:text-purple-300">
+              className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy dark:hover:text-rose-200">
               Projects
             </a>
             {/* <a
               href="#skills"
               onClick={toggleMenu}
-              className="cursor-pointer hover:text-purple-500 hover:underline decoration-wavy dark:hover:text-purple-300">
+              className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy dark:hover:text-rose-200">
               Skills
             </a> */}
             <a
               href="#contact"
               onClick={toggleMenu}
-              className="cursor-pointer hover:text-purple-500 hover:underline decoration-wavy dark:hover:text-purple-300">
+              className="cursor-pointer hover:text-[#e8b9b9] hover:underline decoration-wavy dark:hover:text-[#e8b9b9] ">
               Contact
             </a>
           </div>
