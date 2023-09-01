@@ -20,7 +20,7 @@ const Header = () => {
           className="object-contain w-full h-full placeholder:-top-5 md:-top-10"></img>
       </div>
       <div className="col-span-3 text-center">
-        <button className="rounded-sm bg-gray-500 hover:bg-pink-200 border-solid border-2 border-black font-montserrat  text-white text-xl py-2 px-8">
+        <button className="rounded-sm bg-[#343434] hover:bg-pink-200 border-solid border-2 border-black font-montserrat  text-white text-xl py-2 px-8">
           Contact Me
         </button>
       </div>
