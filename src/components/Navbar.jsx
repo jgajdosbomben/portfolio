@@ -5,16 +5,17 @@ import { MdOutlineClose } from "react-icons/md";
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
     <div className="px-0 2x1:px-40">
-      <div className="w-full items-center justify-between py-4 px-4 md:px-12 bg-gradient-to-r from-[#3f0539] from-15%  via-[#0a7694] via-40% to-[#a81588] to-90%">
+      <div className="w-full items-center justify-between py-4 px-4 md:px-12 bg-black">
+      {/* bg-gradient-to-r from-[#3f0539] from-15%  via-[#0a7694] via-40% to-[#a81588] to-90% */}
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center justify-start w-full">
             <a
               href="/"
-              className="text-2xl font-semi-bold font-montserrat tracking-wide text-white cursor-pointer">
+              className="text-base font-semi-bold font-montserrat tracking-wide text-white cursor-pointer">
                Jennifer GB
             </a>
           </div>
-          <ul className="hidden md:flex font-semi-bold font-montserrat tracking-wide gap-6 text-xl text-white">
+          <ul className="hidden md:flex font-semi-bold font-montserrat tracking-wide gap-6 text-base text-white">
             <li className="cursor-pointer hover:text-slate-950 hover:underline decoration-wavy dark:hover:text-slate-950">
               <a href="#home">Home</a>
             </li>
@@ -27,9 +28,9 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             <li className="cursor-pointer hover:text-slate-950 hover:underline decoration-wavy  dark:hover:text-slate-950">
               <a href="#projects">Projects</a>
             </li>
-            <li className="cursor-pointer hover:text-slate-950  hover:underline decoration-wavy dark:hover:text-slate-950">
+            {/* <li className="cursor-pointer hover:text-slate-950  hover:underline decoration-wavy dark:hover:text-slate-950">
               <a href="#skills">Skills</a>
-            </li>
+            </li> */}
             <li className="cursor-pointer hover:text-slate-950  hover:underline decoration-wavy dark:hover:text-slate-950">
               <a href="#contact">Contact</a>
             </li>
@@ -40,7 +41,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             className="p-2">
             {darkMode ? (
               <FiSun
-                size={24}
+                size={22}
                 color={"white"}
                 className="cursor-pointer"
               />

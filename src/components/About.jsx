@@ -3,23 +3,26 @@ import "./About.css";
 
 const About = () => {
   return (
-  <div className="w-full bg-pink-100 flex flex-col lg:flex-col px-8 md:px-10 gap-10 lg:gap-20 lg:py-20 ">
-    <div className="w-full h-full bg-cover bg-center">
-       <div className="w-full md:h-[290px] lg:w-1/3 flex flex-col items-center border border-gray-500 dark:bg-transparent rounded-md">
+  <div className="about w-full px-10 py-10 flex flex-col justify-center">
+     <div className="w-full flex flex-col justify-center items-center">
+          <h1 className="text-3xl font-bold text-white dark:text-white  ">About Me</h1>
+           
+    <div className="flex">
+       <div className="profile">
         <img
-          src="/src/assets/jenny.jpeg"
+          src="/src/assets/jennifer.jpg"
           alt="personal-image"
-          className="object-cover w-full h-full placeholder:-top-5 md:-top-10 flex-shrink-1 grayscale  rounded-3xl"></img> 
+          className="profile_image"></img> 
        
        {/* <img src="/src/assets/jenny.jpeg"
         className="h-[290px] p-1 rounded-md ease-in-out duration-300 hover:scale-125"/> */}
         </div>
-        <div className="w-full flex flex-col">
-          <p className="text-3xl font-bold text-black dark:text-white  ">About Me</p>
-          <p className="text-lg text-black dark:text-white leading-10">
-            I have recently completed a full stack developer program.{" "}
+        <div className="px-10 py-10">
+                <p className="text-xl text-black dark:text-white leading-8">
+                After years of searching for a career where I could balance my creative and logical/mathematical sides, I have finally found a harmonious balance in full stack development. As a new graduate from InceptionU’s Full Stack Developer program, I am eager to build intuitive, functional, and beautiful applications.{" "}
           </p>
-                  </div>
+          </div>
+          </div>
                   {/* <div className="outer-headings dark:text-white">
                     <h1>
                       
