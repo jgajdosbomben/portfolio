@@ -21,8 +21,8 @@ function App() {
   };
 
   return (
-    <div className={`"w-full h-full min-h-[100vh] bg-white" ${darkMode && "dark"}`}>
-      <div className="w-full h-full min-h-[100vh] bg-#fcf4f4 ">
+    <div className={`"w-full h-full min-h-[100vh] bg-#f4dddd" ${darkMode && "dark"}`}>
+      <div className="w-full h-full min-h-[100vh] bg-#f4dddd ">
       {/* bg-gradient-to-r from-[#fcf4f4] */}
       {/* bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed] */}
         <div className="dark:bg-slate-900">
@@ -35,25 +35,25 @@ function App() {
           />
           <section
             id="home"
-            className="px-0 lg:px-5 lg:py-0 2xl:px-40 py-10">
+            className="px-0 lg:py-0 2xl: py-10">
             <Header />
           </section>
           <section
             id="about"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0">
+            className="w-full 2xl: py-10 lg:py-0">
             <About />
           </section>
           <section
             id="education"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0">
+            className="w-full 2xl:py-10 lg:py-0">
             <Education />
           </section>
           <section
             id="projects"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-gradient-to-tr from-[#030a1c] via-[#941d87] via-80% to-[#21054e]">
+            className="w-full lg: 2xl:py-10 lg:py-0 dark:bg-gradient-to-tr from-[#030a1c] via-[#941d87] via-80% to-[#21054e]">
             <Projects />
           </section>
           <section
