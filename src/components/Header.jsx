@@ -12,7 +12,7 @@ const Header = () => {
         <br />
         <h2 className="text-4xl text-black text-center font-montserrat  py-12">Full Stack Developer</h2>
         <br />
-        <button className="rounded-sm bg-[#343434] hover:bg-pink-200 border-solid border-2 border-black font-montserrat  text-white text-xl py-2 px-8">
+        <button className="rounded-sm bg-[#343434] hover:bg-[#e8b9b9] border-solid border-2 border-black font-montserrat  text-white text-xl py-2 px-8">
           Contact Me
         </button>
       </div>
