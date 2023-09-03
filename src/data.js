@@ -11,7 +11,7 @@ export const projects = [
   {
     id: 2,
     name: "Unstuck",
-    url: "GitHub Repo: https://github.com/Unstuck-IU/unstuck",
+    url: "https://github.com/Unstuck-IU/unstuck",
     description: "A web application to help students learn how to easily break down problems using critical thinking skills.",
     img: "./src/assets/unstuck.png",
   },
