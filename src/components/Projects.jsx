@@ -3,7 +3,7 @@ import { projects } from "../data";
 
 const Projects = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black text-black dark:text-white">
       <div className="flex justify-center items-center">
         <h1 className="text-3xl">Projects</h1>
       </div>
