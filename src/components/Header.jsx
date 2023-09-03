@@ -3,14 +3,14 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="grid grid-cols-1 grid-row-3 md:grid-cols-5 md:grid-rows-5 bg-[#f4dddd]">
-         <div className="col-span-1 row-span-1 md:col-span-3 md:row-span-5 text-center align-middle pt-12">
+    <div className="grid grid-cols-1 grid-row-3 md:grid-cols-5 md:grid-rows-5 bg-[#f4dddd] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71]">
+      <div className="col-span-1 row-span-1 md:col-span-3 md:row-span-5 text-center align-middle pt-12">
         <h1 className="text-6xl font-montserrat  text-black dark:text-white pt-10">
           JENNIFER <br />
           GAJDOS-BOMBEN
         </h1>
         <br />
-        <h2 className="text-4xl text-black text-center font-montserrat  py-12">Full Stack Developer</h2>
+        <h2 className="text-4xl text-black dark:text-white text-center font-montserrat  py-12">Full Stack Developer</h2>
         <br />
         <button className="rounded-sm bg-[#343434] hover:bg-[#e8b9b9] border-solid border-2 border-black font-montserrat  text-white text-xl py-2 px-8">
           Contact Me

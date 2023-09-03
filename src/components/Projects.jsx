@@ -17,13 +17,13 @@ const Projects = () => {
         className="w-full flex flex-wrap grow-0 items-center justify-center gap-10 lg:gap-20 pt-10">
         {projects.map((proj, index) => (
           <div className="flex flex-col gap-2 max-w-md h-full items-center px-4 py-3 bg-white rounded-md">
-            <p className="text-black dark:text-white text-2xl font-bold">{proj.name}</p>
+            <p className="text-black dark:text-black text-2xl font-bold">{proj.name}</p>
             <a
               href={proj.url}
-              className="text-black dark:text-white text-lg font-bold">
+              className="text-black dark:text-black text-lg font-bold">
               {proj.url}
             </a>
-            <p className="text-black dark:text-whitetext-sm font-bold">{proj.description}</p>
+            <p className="text-black dark:text-black text-sm font-bold">{proj.description}</p>
             <img
               src={proj.img}
               className="w-70 h-50 justify-end"

@@ -3,9 +3,9 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about w-full bg-neutral-100 dark:bg-gray-950 px-10 py-10 flex flex-col justify-center">
+    <div className="about w-full px-10 py-10 flex flex-col justify-center">
             <div className="w-full flex flex-col justify-center items-center">
-        <h1 className="text-3xl font-bold text-black dark:text-white  ">About Me</h1>
+        <h1 className="text-3xl font-bold text-white dark:text-white  ">About Me</h1>
 
         <div className="flex">
           {/* <div className="profile">
@@ -18,7 +18,7 @@ const About = () => {
         className="h-[290px] p-1 rounded-md ease-in-out duration-300 hover:scale-125"/> */}
           {/* </div> */}
           <div className="px-10 py-10">
-            <p className="text-xl text-black dark:text-white leading-8">
+            <p className="text-xl text-white dark:text-white leading-8">
               After years of searching for a career where I could balance my creative and logical/mathematical sides, I have
               finally found a harmonious balance in full stack development. As a new graduate from InceptionU’s Full Stack
               Developer program, I am eager to build intuitive, functional, and beautiful applications.{" "}

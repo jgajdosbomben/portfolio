@@ -43,13 +43,13 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               <FiSun
                 size={22}
                 color={"white"}
-                className="cursor-pointer"
+                className="cursor-pointer hover:fill-rose-200"
               />
             ) : (
               <FiMoon
                 size={24}
                 color={"white"}
-                className="cursor-pointer"
+                className="cursor-pointer hover:fill-rose-200"
               />
             )}
           </button>
@@ -62,11 +62,11 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               onClick={toggleMenu}>
               <FiMenu
                 size={26}
-                className={`${isOpen ? "hidden" : "block"} text-white dark:text-gray-50 font-montserrat`}
+                className={`${isOpen ? "hidden" : "block"} text-white dark:text-gray-50 font-montserrat hover:text-rose-200`}
               />
               <MdOutlineClose
                 size={26}
-                className={`${isOpen ? "block" : "hidden"} h-6 w-6 text-white dark:white font-montserrat`}
+                className={`${isOpen ? "block" : "hidden"} h-6 w-6 text-white dark:white font-montserrat hover:text-rose-200`}
               />{" "}
             </button>
           </div>
