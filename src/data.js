@@ -10,7 +10,7 @@ export const projects = [
   {
     id: 2,
     name: "Unstuck",
-    url: "URL Coming Soon!",
+    url: "Check out on GitHub",
     description: "A web application to help students learn how to easily break down problems using critical thinking skills.",
     img: "./src/assets/unstuck.png",
   },
