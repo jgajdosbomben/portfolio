@@ -14,9 +14,9 @@ const Projects = () => {
         data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
-        className="w-full flex flex-wrap grow-0 items-center justify-center gap-10 lg:gap-20 pt-10">
+        className="grid grid-cols-4 gap-2 items-center justify-center p-10 mg:grid-cols-2 md:gap-4 pt-10">
         {projects.map((proj, index) => (
-          <div className="flex flex-col gap-2 max-w-md h-full items-center px-4 py-3 bg-white rounded-md">
+          <div className="grid col-span-2 gap-2 h-full items-center px-4 py-3 bg-white rounded-md">
             <p className="text-black dark:text-black text-2xl font-bold">{proj.name}</p>
             <a
               href={proj.url}

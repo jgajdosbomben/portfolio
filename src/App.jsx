@@ -23,11 +23,12 @@ function App() {
 
   return (
     <div className={`"w-full h-full min-h-[100vh] bg-[#f4dddd]" ${darkMode && "dark"}`}>
-      <div className="w-full h-full min-h-[100vh] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71]">
-        {/* bg-gradient-to-r from-[#fcf4f4] */}
-        {/* bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed] */}
-        <div className="bg-[#f4dddd] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71]">
-          {/* bg-gradient-to-tr from-[#cc29b9] via-[#030a1c] to-[#21054e] */}
+      {/* Sets main colour for light mode */}
+      <div className="w-full h-full min-h-[100vh] bg-gradient-to-br from-[#f4dddd]  to-[#9d9b9b]">
+        {/* [radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#f4dddd] to-[#06308b] */}
+        {/* Sets main colour for dark mode */}
+        <div className="dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
+          {/* dark:bg-gradient-to-tr from-[#f4dddd] via-[#f3eeee] to-[#f4dddd] */}
           <Navbar
             darkMode={darkMode}
             isOpen={isOpen}
@@ -47,7 +48,7 @@ function App() {
           <section
             id="education"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full h-full min-h-[100vh] 2xl:py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
+            className="w-full h-full min-h-[100vh] 2xl:py-10 lg:py-0">
             <Education />
           </section>
           <section
@@ -59,7 +60,7 @@ function App() {
           <section
             id="skills"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full h-full min-h-[100vh] 2xl:py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
+            className="w-full h-full min-h-[100vh] 2xl:py-10 lg:py-0">
             <Skills />
           </section>
           <section
@@ -71,7 +72,7 @@ function App() {
           <section
             id="footer"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full text-center bg-[#f4dddd] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
+            className="w-full text-center">
             <Footer />
           </section>
         </div>
