@@ -4,37 +4,40 @@ import { MdOutlineClose } from "react-icons/md";
 
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
-    <div className="px-0 2x1:px-40">
-      <div className="w-full items-center justify-between py-4 px-4 md:px-12 bg-black">
+    <div className="px-0">
+      <div className="w-full items-center justify-between py-4 px-4 md:px-12 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#0e0e0e] via-[#3a373a] to-[#1d1d1d] ">
+     
         {/* bg-gradient-to-r from-[#3f0539] from-15%  via-[#0a7694] via-40% to-[#a81588] to-90% */}
         <div className="flex items-center justify-between w-full">
-          <div className="flex items-center justify-start w-full">
+          <div className="flex items-center justify- w-full">
             <a
               href="/"
               className="text-lg font-semi-bold font-montserrat tracking-wide text-white cursor-pointer hover:text-rose-200">
               Jennifer GB
             </a>
           </div>
-          <ul className="hidden md:flex font-semi-bold font-montserrat tracking-wide gap-6 text-lg text-white">
-            <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy dark:hover:text-rose-200">
-              <a href="#home">Home</a>
-            </li>
-            <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
-              <a href="#about">About</a>
-            </li>
-            <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
+          <div className="flex justify-end items-center w-full">
+            <ul className="hidden md:flex font-semi-bold font-montserrat tracking-wide gap-10 text-lg text-white">
+              <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy dark:hover:text-rose-200">
+                <a href="#home">Home</a>
+              </li>
+              <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
+                <a href="#about">About</a>
+              </li>
+              {/* <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
               <a href="#projects">Education</a>
-            </li>
-            <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
-              <a href="#projects">Projects</a>
-            </li>
-            {/* <li className="cursor-pointer hover:text-rose-200  hover:underline decoration-wavy dark:hover:text-rose-200">
+            </li> */}
+              <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
+                <a href="#projects">Projects</a>
+              </li>
+              {/* <li className="cursor-pointer hover:text-rose-200  hover:underline decoration-wavy dark:hover:text-rose-200">
               <a href="#skills">Skills</a>
             </li> */}
-            <li className="cursor-pointer hover:text-rose-200  hover:underline decoration-wavy dark:hover:text-rose-200">
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
+              <li className="cursor-pointer hover:text-rose-200  hover:underline decoration-wavy dark:hover:text-rose-200">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
           <div className="flex items-center justify-end basis-28"></div>
           <button
             onClick={toggleTheme}
