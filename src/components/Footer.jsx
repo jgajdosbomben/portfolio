@@ -19,7 +19,7 @@ const Footer = () => {
             <li className="cursor-pointer hover:text-zinc-600  hover:underline decoration-wavy  dark:hover:text-rose-200">
               <a href="#projects">Projects</a>
             </li>
-            <li className="text-md">© {currentYear} Jennifer Gajdos-Bomben</li>
+            <li className="text-md">© {currentYear} &nbsp;Jennifer Gajdos-Bomben</li>
           </ul>
         </div>
         {/* <div className="text-md">Copyright © {currentYear}</div> */}
