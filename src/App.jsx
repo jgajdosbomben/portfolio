@@ -24,7 +24,7 @@ function App() {
   return (
     <div className={`"w-full h-full min-h-[100vh] bg-gradient-to-br from-[#f4dddd]  to-[#9d9b9b]" ${darkMode && "dark"}`}>
       {/* Sets main colour for light mode */}
-      <div className="w-full h-full min-h-[100vh] bg-[#f4dddd]">
+      <div className="w-full h-full min-h-[100vh] bg-[#f4dddd] font-montserrat">
       {/* gradient-to-br from-[#f4dddd]  to-[#9d9b9b] */}
         {/* [radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#f4dddd] to-[#06308b] */}
         {/* Sets main colour for dark mode */}
@@ -67,7 +67,8 @@ function App() {
           <section
             id="contact"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full h-full bg-[url('/src/assets/banner-laptop.png')]">
+            className="w-full h-full ">
+              {/* bg-[url('/src/assets/banner-laptop.png')] */}
             <Contact />
           </section>
           <section
