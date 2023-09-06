@@ -3,8 +3,10 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div class="main-area">
-      <div className="grid grid-cols-1 grid-row-3 md:grid-cols-5 md:grid-rows-5 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d] pb-10">
+    <div
+      class="main-area"
+      className="dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
+      <div className="grid grid-cols-1 grid-row-3 md:grid-cols-5 md:grid-rows-5">
         {/* bg-[#f4dddd] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71] */}
         <div className="col-span-1 row-span-1 md:col-span-3 md:row-span-5 text-center align-middle pt-12">
           <h1 className="text-6xl font-montserrat  text-black dark:text-white pt-10">
@@ -26,6 +28,12 @@ const Header = () => {
         </div>
 
         <div class="circles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
           <div></div>
           <div></div>
           <div></div>
