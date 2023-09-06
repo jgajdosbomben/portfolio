@@ -25,6 +25,7 @@ body {
     position: absolute;
     top: 70px;
     left: 0;
+    bottom: 0;
     width: 100%;
     height: 59%;
     overflow: hidden;
@@ -180,14 +181,4 @@ body {
     animation-duration: 10s;
   }
 
-  @media (min-width: 1600px) {
-    .circles {
-      position: absolute;
-      top: 70px;
-      left: 0;
-      width: 100%;
-      height: 69%;
-      overflow: hidden;
-    }
-  }
 }
