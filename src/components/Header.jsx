@@ -5,20 +5,24 @@ const Header = () => {
   return (
     <div class="main-area w-full h-full min-h-[100vh]">
         <div className="min-h-[100vh] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
-        <div className="grid grid-cols-1 grid-row-3 md:grid-cols-5 md:grid-rows-5">
+        <div className="grid grid-cols-1 grid-row-3 md:grid-cols-3 md:grid-rows-2">
           {/* bg-[#f4dddd] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71] */}
-          <div className="col-span-1 row-span-1 md:col-span-5 md:row-span-5 text-center align-middle pt-12">
+          <div className="col-span-1 row-span-1 md:col-span-3 md:row-span-3 text-center align-middle pt-20">
             <h1 className="text-6xl font-montserrat  text-black dark:text-white pt-10">
               JENNIFER <br />
               GAJDOS-BOMBEN
             </h1>
+            </div>
             <br />
+            <div className="col-span-1 row-span-1 md:col-start-2 md:col-end-3 md:row-span-2 text-center align-middle pt-12">
+            <h2 className="text-xl text-black dark:text-white font-montserrat py-12">Hi! My name is Jennifer. I'm a Full Stack Developer with a passion for blending creativity with technical solutions. </h2>
+            </div>
             {/* <h2 className="text-4xl text-black dark:text-white text-center font-montserrat  py-12">Full Stack Developer </h2> */}
-            <br />
+            {/* <br /> */}
             {/* <button className="rounded-sm bg-[#343434] hover:bg-[#e8b9b9] border-solid border-2 border-black font-montserrat  text-white text-xl py-2 px-8 z-1000">
             Contact Me
           </button> */}
-          </div>
+      
           {/* <div className="col-span-1 row-span- md:col-span-2 md:row-span-5">
           <img
             src="/src/assets/websitephoto.png"
@@ -44,9 +48,6 @@ const Header = () => {
             <div></div>
           </div>
         </div>
-<div>
-      <h2 className="text-4xl text-black dark:text-white text-center font-montserrat  py-12">Hi! My name is Jennifer and I'm a Full Stack Developer </h2>
-      </div>
       </div>
       {/* <div className="col-span-1 md:col-span-3 text-center">
        
