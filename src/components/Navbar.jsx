@@ -25,7 +25,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
                 <a href="#about">About</a>
               </li>
               {/* <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
-              <a href="#projects">Education</a>
+              <a href="#projects">Background</a>
             </li> */}
               <li className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy  dark:hover:text-rose-200">
                 <a href="#projects">Projects</a>
@@ -92,10 +92,10 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               About
             </a>
             <a
-              href="#education"
+              href="#background"
               onClick={toggleMenu}
               className="cursor-pointer hover:text-rose-200 hover:underline decoration-wavy dark:hover:text-rose-200">
-              Education
+              Background
             </a>
             <a
               href="#projects"

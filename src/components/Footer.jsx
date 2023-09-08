@@ -14,7 +14,7 @@ const Footer = () => {
               <a href="#about">About</a>
             </li>
             <li className="cursor-pointer hover:text-zinc-600  hover:underline decoration-wavy  dark:hover:text-rose-200">
-              <a href="#projects">Education</a>
+              <a href="#projects">Background</a>
             </li>
             <li className="cursor-pointer hover:text-zinc-600  hover:underline decoration-wavy  dark:hover:text-rose-200">
               <a href="#projects">Projects</a>

@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Header from "./components/Header";
-import Education from "./components/Education";
+import Background from "./components/Background";
 import Footer from "./components/Footer";
 
 function App() {
@@ -47,10 +47,10 @@ function App() {
             <About />
           </section>
           <section
-            id="education"
+            id="background"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
             className="w-full h-full min-h-[100vh]">
-            <Education />
+            <Background />
           </section>
           <section
             id="projects"
