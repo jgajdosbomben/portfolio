@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <div className="font-montserrat text-black dark:text-white">
       <footer>
-        <div className="w-full flex flex-col justify-center md:flex-row py-7 px-10 text-md gap-3 md:gap-10">
-          <ul className="hidden md:flex tracking-wide gap-6 text-md text-black dark:text-white">
+        <div className="w-full flex flex-col justify-center md:flex-wrap text-md gap-3 md:gap-10">
+          <ul className=" flex-wrap md:flex tracking-wide gap-6 text-md px-6 py-6 justify-center text-black dark:text-white">
             <li className="cursor-pointer hover:text-zinc-600 hover:underline decoration-wavy dark:hover:text-rose-200">
               <a href="#home">Home</a>
             </li>
