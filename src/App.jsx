@@ -39,7 +39,11 @@ function App() {
           <section
             id="home"
             className="px-0 lg:py-0">
-            <Header />
+            <Header
+              isOpen={isOpen}
+              toggleMenu={toggleMenu}
+              toggleTheme={toggleTheme}
+            />
           </section>
           <section
             id="about"

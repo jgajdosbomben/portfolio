@@ -1,10 +1,10 @@
 import React from "react";
-// import "../index.css";
 
-const Header = () => {
+
+const Header = ({isOpen, toggleMenu, toggleTheme}) => {
   return (
-    <div class="main-area w-full h-full min-h-[100vh]">
-        <div className="min-h-[100vh] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
+    <div class="main-area w-full h-full">
+        <div className="header dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
         <div className="grid grid-cols-1 grid-row-3 md:grid-cols-3 md:grid-rows-2">
           {/* bg-[#f4dddd] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71] */}
           <div className="col-span-1 row-span-1 md:col-span-3 md:row-span-3 text-center align-middle pt-20">
