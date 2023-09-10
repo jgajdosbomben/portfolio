@@ -44,7 +44,7 @@ export const work = [
     id: 1,
     title: "Medical Legal Records Technician",
     date: "Apr 2016 - Feb 2023",
-    location: "Office of the Chief Medical Examiner - Calgary",
+    location: "Office of the Chief Medical Examiner",
   },
   {
     id: 2,
