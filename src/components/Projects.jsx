@@ -10,7 +10,7 @@ const Projects = () => {
 
       <div className="grid grid-cols-2 gap-2 items-center justify-center p-10 lg:grid-cols-4 md:gap-4 pt-10">
         {projects.map((proj, index) => (
-          <div className="grid col-span-2 gap-2 h-full items-center px-4 py-3 rounded-md bg-[#f4dddd]">
+          <div className="grid col-span-2 gap-2 h-full items-center px-4 py-3 rounded-md bg-[#f4dddd] dark:bg-[#e1aabb]">
             <button
               onClick={() => {
                 window.open(proj.url, "_blank");
