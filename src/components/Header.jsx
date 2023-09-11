@@ -46,6 +46,8 @@ const Header = ({isOpen, toggleMenu, toggleTheme}) => {
             <div></div>
             <div></div>
             <div></div>
+            <div></div>
+            <div></div>
           </div>
         </div>
       </div>
