@@ -54,7 +54,7 @@ export const work = [
   },
   {
     id: 3,
-    title: "Records and Information Technician ",
+    title: "Records and Information Technician",
     date: "Feb 2011 - Aug 2011",
     location: "ARC Resources Ltd.",
   },
