@@ -62,104 +62,118 @@ body {
     width: 30px;
     height: 30px;
     animation-delay: 0s;
+    background: rgba(229, 17, 17, 0.2);
   }
 
   .circles div:nth-child(2) {
-    left: 15%;
+    left: 10%;
     width: 60px;
     height: 60px;
-    animation-delay: 0s;
+    animation-delay: 2s;
     animation-duration: 12s;
+    background: rgba(148, 17, 229, 0.2);
   }
 
   .circles div:nth-child(3) {
-    left: 70%;
+    left: 15%;
     width: 20px;
     height: 20px;
     animation-delay: 4s;
+    background: rgb(182, 26, 182);
   }
 
   .circles div:nth-child(4) {
-    left: 40%;
+    left: 20%;
     width: 50px;
     height: 50px;
     animation-delay: 18s;
+    background: blue;
   }
 
   .circles div:nth-child(5) {
-    left: 65%;
+    left: 25%;
     width: 20px;
     height: 20px;
     animation-delay: 0s;
+    animation-duration: 20s;
+    background: black;
   }
 
   .circles div:nth-child(6) {
-    left: 75%;
+    left: 30%;
     width: 10px;
     height: 10px;
     animation-delay: 3s;
+    background: white;
   }
 
   .circles div:nth-child(7) {
-    left: 35%;
-    width: 10px;
-    height: 10px;
+    left: 33%;
+    width: 50px;
+    height: 50px;
     animation-delay: 7s;
+    background: rgb(225, 69, 12);
   }
 
   .circles div:nth-child(8) {
-    left: 25%;
+    left: 38%;
     width: 25px;
     height: 25px;
-    animation-delay: 15s;
+    animation-delay: 10s;
     animation-duration: 45s;
+    background: rgb(112, 170, 197);
   }
 
   .circles div:nth-child(9) {
-    left: 20%;
-    width: 15px;
-    height: 15px;
+    left: 45%;
+    width: 25px;
+    height: 25px;
     animation-delay: 2s;
     animation-duration: 35s;
+    background: green;
   }
 
   .circles div:nth-child(10) {
-    left: 95%;
-    width: 50px;
-    height: 50px;
-    animation-delay: 0s;
-    animation-duration: 11s;
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+    background: blue;
   }
 
   .circles div:nth-child(11) {
-    left: 25%;
-    width: 10px;
-    height: 10px;
-    animation-delay: 0s;
-    animation-duration: 11s;
+    left: 55%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 6s;
+    animation-duration: 15s;
+    background: orange;
   }
 
   .circles div:nth-child(12) {
-    left: 85%;
+    left: 60%;
     width: 10px;
     height: 10px;
     animation-delay: 0s;
     animation-duration: 11s;
   }
   .circles div:nth-child(13) {
-    left: 50%;
+    left: 63%;
     width: 40px;
     height: 40px;
-    animation-delay: 0s;
-    animation-duration: 45s;
+    animation-delay: 1s;
+    animation-duration: 35s;
+    background: yellow;
   }
 
   .circles div:nth-child(14) {
-    left: 70%;
+    left: 72%;
     width: 60px;
     height: 60px;
-    animation-delay: 5s;
+    animation-delay: 8s;
     animation-duration: 15s;
+    background: turquoise;
   }
 
   .circles div:nth-child(14) {
@@ -170,18 +184,36 @@ body {
     animation-duration: 35s;
   }
   .circles div:nth-child(15) {
-    left: 40%;
+    left: 80%;
     width: 20px;
     height: 20px;
-    animation-delay: 2s;
+    animation-delay: 10s;
     animation-duration: 10s;
+    background: crimson;
   }
   .circles div:nth-child(16) {
-    left: 45%;
+    left: 85%;
     width: 35px;
     height: 35px;
     animation-delay: 3s;
     animation-duration: 10s;
+    background: rgb(152, 16, 75);
+  }
+  .circles div:nth-child(17) {
+    left: 90%;
+    width: 65px;
+    height: 65px;
+    animation-delay: 10s;
+    animation-duration: 25s;
+    background: blue;
+  }
+  .circles div:nth-child(18) {
+    left: 95%;
+    width: 35px;
+    height: 35px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    background: purple;
   }
 
 }
