@@ -213,4 +213,8 @@ body {
     animation-duration: 10s;
     /* background: purple; */
   }
+
+  .blob {
+    border-radius: 48% 52% 19% 81% / 52% 65% 35% 48%; 
+  }
 }
