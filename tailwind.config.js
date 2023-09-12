@@ -327,6 +327,7 @@ export default {
       pacifico: ['"Pacifico"', '"Times New Roman"'],
       parisienne: ['"Parisienne"', '"Times New Roman"'],
       montserrat: ['"Montserrat"', '"Arial"'],
+      lobster: ['"Lobster"', '"Arial"'],
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
