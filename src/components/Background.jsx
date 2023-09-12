@@ -3,12 +3,12 @@ import { education, work } from "../data";
 
 const Background = () => {
   return (
-    <div className="px-10 py-10 text-black dark:text-white">
+    <div className="p-10 text-black dark:text-white">
       <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-purple-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 text-center leading-tight pb-10">
         Background
       </h1>
 
-      <div className="inline-grid grid-cols-1 sm:grid-cols-2 gap-10">
+      <div className="inline-grid grid-cols-1 sm:grid-cols-2 gap-10 pl-10">
         {/* <!-- Vertical Timeline #1 --> */}
         <div className="-my-6">
           <h1 className="text-center font-bold text-2xl underline decoration-wavy pb-3">Education</h1>
