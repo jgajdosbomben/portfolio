@@ -62,12 +62,12 @@ function App() {
             className="w-full">
             <Projects />
           </section>
-          <section
+          {/* <section
             id="skills"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
             className="w-full h-full min-h-[100vh]">
             <Skills />
-          </section>
+          </section> */}
           <section
             id="contact"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
