@@ -6,6 +6,14 @@ export const projects = [
     description:
       "A website to increase awareness of local public art. An interactive map plots the locations of public art in Calgary and allows users to create custom, self-guided walking tours. ",
     img: "../yyclocalart.png",
+    tech1: "JavaScript",
+    tech2: "HTML",
+    tech3: "CSS",
+    tech4: "Node.js",
+    tech5: "Express.js",
+    tech6: "React",
+    tech7: "Material UI",
+    tech8: "MapBox",
   },
   {
     id: 2,
@@ -13,6 +21,14 @@ export const projects = [
     url: "https://github.com/Unstuck-IU/unstuck",
     description: "A web application to help students learn how to easily break down problems using critical thinking skills.",
     img: "../unstuck.png",
+    tech1: "JavaScript",
+    tech2: "HTML",
+    tech3: "CSS",
+    tech4: "Node.js",
+    tech5: "React",
+    tech6: "Supabase",
+    tech7: "Material UI",
+    tech8: "Figma",
   },
 ];
 
