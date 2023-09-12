@@ -7,7 +7,7 @@ const Header = ({ isOpen, toggleMenu, toggleTheme }) => {
         <div className="grid grid-cols-1 grid-row-3 md:grid-cols-3 md:grid-rows-2">
           {/* bg-[#f4dddd] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71] */}
           <div className="col-span-1 row-span-1 md:col-span-3 md:row-span-3 text-center align-middle pt-20">
-            <h1 className="bg-clip-text text-transparent font-bold bg-gradient-to-r from-rose-400 to-purple-800 text-8xl dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 pt-10 pb-5">
+            <h1 className="font-lobster bg-clip-text text-transparent font-bold bg-gradient-to-r from-rose-400 to-purple-800 text-8xl dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 pt-10 pb-5">
               Jennifer <br />
               Gajdos-Bomben
             </h1>
