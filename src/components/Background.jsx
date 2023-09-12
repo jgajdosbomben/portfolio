@@ -4,7 +4,7 @@ import { education, work } from "../data";
 const Background = () => {
   return (
     <div className="px-10 pb-10 text-black dark:text-white">
-      <h1 className="text-black dark:text-white text-3xl text-center font-bold px-10 py-10">Background</h1>
+      <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-purple-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 text-center px-10 py-10">Background</h1>
 
       <div className="inline-grid grid-cols1 sm:grid-cols-2 gap-10">
         {/* <!-- Vertical Timeline #1 --> */}
