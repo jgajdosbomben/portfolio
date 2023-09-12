@@ -14,7 +14,7 @@ const Header = ({ isOpen, toggleMenu, toggleTheme }) => {
           </div>
           <br />
           <div className="col-span-1 row-span-1 md:col-start-2 md:col-end-3 md:row-span-2 text-center align-middle">
-            <h2 className="text-2xl text-black dark:text-white font-montserrat py-12">
+            <h2 className="text-2xl text-black font-semibold dark:text-white font-montserrat py-12">
               Hi! My name is Jennifer. I'm a Full Stack Developer with a passion for blending creativity with technical solutions.{" "}
             </h2>
           </div>
