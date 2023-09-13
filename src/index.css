@@ -220,18 +220,17 @@ body {
   /* For projects unordered list */
   .grid-li > li {
     border: 2px solid;
-    border-color: #a52161;
+    border-color: #6a6365;
     border-radius: 10px;
     text-align: center;
     font-weight: 500;
-    box-shadow: inset 0 0 0 0 #620426;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    box-shadow: inset 0 0 0 0 #6a6365;
+    margin: 0 -0.25rem;
+    padding: 0 0.25rem;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
   .grid-li > li:hover {
-    box-shadow: inset 200px 0 0 0 #620426;
+    box-shadow: inset 200px 0 0 0 #6a6365;
     color: white;
-    
   }
 }
