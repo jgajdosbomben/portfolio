@@ -5,7 +5,9 @@ import { MdOutlineClose } from "react-icons/md";
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   return (
     <div className="px-0">
-      <div className="w-full items-center justify-between py-4 px-4 md:px-12 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#0e0e0e] via-[#3a373a] to-[#1d1d1d] ">
+      <div className="w-full items-center justify-between py-4 px-4 md:px-12 bg-[#2e2c2e]">
+
+      {/* bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#0e0e0e] via-[#3a373a] to-[#1d1d1d] */}
         {/* bg-gradient-to-r from-[#3f0539] from-15%  via-[#0a7694] via-40% to-[#a81588] to-90% */}
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center justify- w-full">
