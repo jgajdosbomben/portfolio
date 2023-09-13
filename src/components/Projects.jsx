@@ -19,7 +19,7 @@ const Projects = () => {
             <div>
               <a
                 href={proj.url}
-                className="text-black dark:text-black text-lg hover:underline decoration-wavy">
+                className="text-black dark:text-black text-lg hover:underline decoration-wavy decoration-[#620646] ">
                 {proj.url}
               </a>
             </div>
@@ -32,12 +32,12 @@ const Projects = () => {
               }}>
               <img
                 src={proj.img}
-                className="w-70 h-50 justify-end border-4 rounded-md border-[#e1aabb]/75 dark:border-[#f4dddd]/75"
+                className="object-contain justify-end border-4 rounded-md border-[#e1aabb]/75 dark:border-[#f4dddd]/75"
               />
             </button>
             <div className="text-black py-5">
               <h2 className="pb-5 text-xl font-semibold">Technologies Used:</h2>
-              <ul className="grid-li grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-4 gap-3">
+              <ul className="grid-li grid grid-cols-1 md:grid-cols-4 md:grid-rows-4 gap-3">
                 <li className="">{proj.tech1}</li>
                 <li>{proj.tech2}</li>
                 <li>{proj.tech3}</li>
