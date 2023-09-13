@@ -4,14 +4,14 @@ import { education, work } from "../data";
 const Background = () => {
   return (
     <div className="p-10 text-black dark:text-white">
-      <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-purple-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 text-center leading-tight pb-10">
+      <h1 className="text-3xl sm:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-purple-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 text-center leading-tight pb-10">
         Background
       </h1>
 
       <div className="inline-grid grid-cols-1 sm:grid-cols-2 gap-10 pl-10">
         {/* <!-- Vertical Timeline #1 --> */}
         <div className="-my-6">
-          <h1 className="text-center font-bold text-2xl underline decoration-wavy pb-3">Education</h1>
+          <h1 className="text-center font-bold text-2xl underline decoration-solid pb-3">Education</h1>
           {/* <!-- Item #1 --> */}
           <div className="relative pl-8 sm:pl-32 py-6 group hover:-translate-y-0.5 hover:scale-100 hover:bg-[#f4dddd] duration-300 hover:dark:bg-inherit">
             {/* Title*/}
@@ -73,7 +73,7 @@ const Background = () => {
         <div className="pt-10 sm:pt-0">
           <div className="-my-6">
             {/* <!-- Item #1 --> */}
-            <h1 className="text-center font-bold text-2xl underline decoration-wavy pb-3">Experience</h1>
+            <h1 className="text-center font-bold text-2xl underline decoration-solid pb-3">Experience</h1>
             <div className="relative pl-8 sm:pl-32 py-6 group hover:-translate-y-0.5 hover:scale-100 hover:bg-[#f4dddd] duration-300 hover:dark:bg-inherit">
               {/* Title*/}
               <div className="font-bold text-xl text-black dark:text-white  mb-1 sm:mb-0">Medical Legal Records Technician</div>

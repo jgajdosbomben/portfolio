@@ -3,9 +3,9 @@ import { projects } from "../data";
 
 const Projects = () => {
   return (
-    <div className="bg-[#343434] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#28031e] to-[#1d1d1d] font-montserrat text-white dark:text-white px-1 py-1 md:px-10 md:py-10">
+    <div className="bg-[#343434] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#28031e] to-[#1d1d1d] font-montserrat text-white dark:text-white px-1 p-10">
       <div className="flex justify-center items-center">
-        <h1 className="text-5xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-rose-400 to-purple-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 leading-tight">
+        <h1 className="text-3xl sm:text-5xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-rose-400 to-purple-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 pb-10">
           Projects
         </h1>
       </div>
@@ -37,7 +37,7 @@ const Projects = () => {
             </button>
             <div className="text-black py-5">
               <h2 className="pb-5 text-xl font-semibold">Technologies Used:</h2>
-              <ul className="grid-li grid grid-cols-4 grid-rows-4 gap-3">
+              <ul className="grid-li grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-4 gap-3">
                 <li className="">{proj.tech1}</li>
                 <li>{proj.tech2}</li>
                 <li>{proj.tech3}</li>
