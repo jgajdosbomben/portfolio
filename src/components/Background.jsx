@@ -8,14 +8,14 @@ const Background = () => {
         Background
       </h1>
 
-      <div className="inline-grid grid-cols-1 sm:grid-cols-2 gap-10 pl-10">
+      <div className="inline-grid grid-cols-1 sm:grid-cols-2 gap-10 px-10">
         {/* <!-- Vertical Timeline #1 --> */}
         <div className="-my-6">
-          <h1 className="text-center font-bold text-2xl underline decoration-solid pb-3">Education</h1>
+          <h1 className="pl-8 sm:pl-32  font-bold text-2xl underline decoration-solid pb-3">Education</h1>
           {/* <!-- Item #1 --> */}
           <div className="relative pl-8 sm:pl-32 py-6 group hover:-translate-y-0.5 hover:scale-100 hover:bg-[#f4dddd] duration-300 hover:dark:bg-inherit">
             {/* Title*/}
-            <div className="font-bold text-xl text-black dark:text-white mb-1 sm:mb-0">Full Stack Developer Program</div>
+            <div className="font-bold sm:text-xl text-black dark:text-white mb-1 sm:mb-0">Full Stack Developer Program</div>
             {/* Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) */}
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-neutral-600 before:dark:bg-neutral-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-white after:border-4 after:box-content after:border-[#620646] after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
               <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold w-20 h-14 mb-3 sm:mb-0 text-black text-center bg-[#e1aabb] rounded-lg">
@@ -73,7 +73,7 @@ const Background = () => {
         <div className="pt-10 sm:pt-0">
           <div className="-my-6">
             {/* <!-- Item #1 --> */}
-            <h1 className="text-center font-bold text-2xl underline decoration-solid pb-3">Experience</h1>
+            <h1 className="pl-8 sm:pl-32 font-bold text-2xl underline decoration-solid pb-3">Experience</h1>
             <div className="relative pl-8 sm:pl-32 py-6 group hover:-translate-y-0.5 hover:scale-100 hover:bg-[#f4dddd] duration-300 hover:dark:bg-inherit">
               {/* Title*/}
               <div className="font-bold text-xl text-black dark:text-white  mb-1 sm:mb-0">Medical Legal Records Technician</div>
