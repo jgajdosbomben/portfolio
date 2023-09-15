@@ -4,16 +4,16 @@ const Header = ({ isOpen, toggleMenu, toggleTheme }) => {
   return (
     <div class="main-area w-full h-full">
       <div className="header dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
-        <div className="grid px-10 grid-cols-1 grid-rows-3 sm:grid-cols-3 sm:grid-rows-2">
+        <div className="grid px-10 grid-cols-1 grid-rows-3">
           {/* bg-[#f4dddd] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71] */}
-          <div className="col-span-1 row-span-1 sm:col-span-3 sm:row-span-2 text-center align-middle pt-20">
-            <h1 className="font-lobster bg-clip-text text-transparent font-bold bg-gradient-to-r from-rose-400 to-purple-800 text-5xl sm:text-8xl dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 pt-10 pb-5">
+          <div className="col-span-1 row-span-2 sm:col-span-3 sm:row-span-2 text-center sm: pt-20 align-middle">
+            <h1 className="font-lobster bg-clip-text text-transparent font-bold bg-gradient-to-r from-rose-400 to-purple-800 text-6xl sm:text-8xl dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 pt-10 pb-5">
               Jennifer <br />
               Gajdos-Bomben
             </h1>
           </div>
           <br />
-          <div className="col-span-1 row-span-1 sm:col-start-2 sm:col-end-3 md:row-span-1 text-center align-middle">
+          <div className="col-span-1 row-span-1 text-center align-middle">
             <h2 className="text-xl sm:text-2xl text-black font-semibold dark:text-white font-montserrat py-4 sm:py-12">
               Hi! My name is Jennifer. I'm a Full Stack Developer with a passion for blending creativity with technical solutions.{" "}
             </h2>
