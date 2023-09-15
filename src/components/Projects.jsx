@@ -14,30 +14,30 @@ const Projects = () => {
         {projects.map((proj, index) => (
           <div className="grid col-span-2 gap-3 h-full items-center text-center text-lg px-4 py-3 rounded-md bg-[#f4dddd] dark:bg-[#e1aabb]">
             <div className="flex justify-center">
-              <div> 
-              <p className="text-black dark:text-black text-2xl font-bold">{proj.name}</p>
+              <div>
+                <p className="text-black dark:text-black text-2xl font-bold">{proj.name}</p>
               </div>
             </div>
             <div>
               <a
                 href={proj.url}
-                className="text-black dark:text-black text-xs sm:text-xl hover:underline decoration-wavy decoration-[#620646] ">
+                className="text-black dark:text-black text-xs sm:text-lg hover:underline decoration-wavy decoration-[#620646] ">
                 {proj.url}
               </a>
             </div>
             <div>
-              <p className="text-black text-sm sm:text-xl dark:text-black text-justify">{proj.description}</p>
+              <p className="text-black text-sm sm:text-lg dark:text-black text-justify">{proj.description}</p>
             </div>
             <div>
-            <button
-              onClick={() => {
-                window.open(proj.url, "_blank");
-              }}>
-              <img
-                src={proj.img}
-                className="object-contain justify-end border-4 rounded-md border-[#e1aabb]/75 dark:border-[#f4dddd]/75"
-              />
-            </button>
+              <button
+                onClick={() => {
+                  window.open(proj.url, "_blank");
+                }}>
+                <img
+                  src={proj.img}
+                  className="object-contain justify-end border-4 rounded-md border-[#e1aabb]/75 dark:border-[#f4dddd]/75"
+                />
+              </button>
             </div>
             <div className="text-black py-5">
               <h2 className="pb-5 text-base sm:text-xl font-semibold">Technologies Used:</h2>
