@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { projects } from "../data";
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <div className="bg-[#343434] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#28031e] to-[#1d1d1d] font-montserrat text-white dark:text-white px-1 p-10">
       <div className="flex justify-center items-center">
@@ -42,14 +42,15 @@ const Projects = () => {
             <div className="text-black py-5">
               <h2 className="pb-5 text-base sm:text-xl font-semibold">Technologies Used:</h2>
               <ul className="grid-li grid grid-cols-1 sm:grid-cols-4 sm:grid-rows-2 gap-3">
-                <li className="">{proj.tech1}</li>
-                <li>{proj.tech2}</li>
-                <li>{proj.tech3}</li>
-                <li>{proj.tech4}</li>
-                <li>{proj.tech5}</li>
-                <li>{proj.tech6}</li>
-                <li>{proj.tech7}</li>
-                <li>{proj.tech8}</li>
+                <li key={projects.id}>{proj.tech1}</li>
+                <li key={projects.id}>{proj.tech2}</li>
+                <li key={projects.id}>{proj.tech3}</li>
+                <li key={projects.id}>{proj.tech4}</li>
+                <li key={projects.id}>{proj.tech5}</li>
+                <li key={projects.id}>{proj.tech5}</li>
+                <li key={projects.id}>{proj.tech6}</li>
+                <li key={projects.id}>{proj.tech7}</li>
+                <li key={projects.id}>{proj.tech8}</li>
               </ul>
             </div>
           </div>
