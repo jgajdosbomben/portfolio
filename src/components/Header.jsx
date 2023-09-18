@@ -15,7 +15,8 @@ const Header = ({ isOpen, toggleMenu, toggleTheme }) => {
           <br />
           <div className="col-span-1 row-span-1 sm:col-start-2 sm:col-end-5 sm:row-span-1 text-center align-middle">
             <h2 className="text-xl sm:text-2xl text-black font-semibold dark:text-white font-montserrat py-4 sm:py-12">
-              Hi! My name is Jennifer. I'm a Full Stack Developer with a passion for blending creativity with technical solutions.{" "}
+              Hi! My name is Jennifer. I'm a Full Stack Developer and Records and Information Manager with a passion for blending
+              creativity with technical solutions.{" "}
             </h2>
           </div>
           {/* <h2 className="text-4xl text-black dark:text-white text-center font-montserrat  py-12">Full Stack Developer </h2> */}
