@@ -5,7 +5,7 @@ const Projects = (props) => {
   return (
     <div className="bg-[#343434] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#28031e] to-[#1d1d1d] font-montserrat text-white dark:text-white px-1 p-10">
       <div className="flex justify-center items-center">
-        <h1 className="text-3xl sm:text-5xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-rose-400 to-purple-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 pb-10">
+        <h1 className="text-3xl sm:text-5xl bg-clip-text text-transparent font-bold bg-gradient-to-r from-pink-400 to-fuchsia-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-pink-400 to-fuchsia-800 text-center pb-10">
           Projects
         </h1>
       </div>
