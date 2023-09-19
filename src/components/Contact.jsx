@@ -6,8 +6,12 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const onSubmit = () => {
+  const submitHandler = (e) => {
     console.log("Data", name, email, message);
+    e.preventDefault();
+    setName("");
+    setEmail("");
+    setMessage("");
   };
 
   return (
@@ -21,11 +25,11 @@ const Contact = () => {
         <div className="w-full max-w-xl">
           <form
             className="shadow-md rounded px-8 pt-6 pb-8 mb-4"
-            onSubmit={onSubmit}>
+            onSubmit={submitHandler}>
             <div className="mb-4">
               <label
-                class="block text-gray-700 text-sm font-bold mb-2"
-                for="name">
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="name">
                 Name
               </label>
               <input
@@ -38,8 +42,8 @@ const Contact = () => {
               <br />
               <br />
               <label
-                class="block text-gray-700 text-sm font-bold mb-2"
-                for="email">
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="email">
                 Email
               </label>
               <input
@@ -52,8 +56,8 @@ const Contact = () => {
               <br />
               <br />
               <label
-                class="block text-gray-700 text-sm font-bold mb-2"
-                for="message">
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="message">
                 Message
               </label>
               <textarea
