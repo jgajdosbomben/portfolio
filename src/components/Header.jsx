@@ -4,20 +4,20 @@ const Header = ({ isOpen, toggleMenu, toggleTheme }) => {
   return (
     <div className="main-area w-full h-full">
       <div className="header dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
-        <div className="grid px-10 grid-cols-1 grid-rows-2 md:grid-cols-5">
+        <div className="grid px-10 grid-cols-1 grid-rows-2 md:grid-cols-7">
           {/* bg-[#f4dddd] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71] */}
-          <div className="col-span-1 row-span-2 sm:col-span-5 sm:row-span-2 text-center pt-10 sm:pt-20 align-middle">
+          <div className="col-span-1 row-span-2 sm:col-span-7 sm:row-span-2 text-center pt-10 sm:pt-20 align-middle">
             <h1 className="font-lobster bg-clip-text text-transparent font-bold bg-gradient-to-r from-pink-400 to-fuchsia-950 text-5xl sm:text-7xl dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-00 to-purple-800 pt-10 pb-5">
               Jennifer <br />
               Gajdos-Bomben
             </h1>
           </div>
           <br />
-          <div className="col-span-1 row-span-1 sm:col-start-2 sm:col-end-5 sm:row-span-1 text-center align-middle">
+          <div className="col-span-1 row-span-1 sm:col-start-3 sm:col-end-6 sm:row-span-1 text-center align-middle">
             <br />
             <br />
-            <h2 className="text-base sm:text-xl text-black font-semibold dark:text-white font-montserrat py-4 sm:py-12">
-              Hi! My name is Jennifer. I'm a Full Stack Developer and Records and Information Manager with a passion for blending
+            <h2 className="text-base sm:text-xl text-black font-semibold dark:text-white font-montserrat text-justify py-4 sm:py-12">
+              Hi! My name is Jennifer. I'm a Full Stack Developer and Records and Information Management professional with a passion for blending
               creativity with technical solutions.{" "}
             </h2>
           </div>
