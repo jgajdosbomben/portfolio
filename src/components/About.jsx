@@ -15,17 +15,12 @@ const About = () => {
         </div>
         <div className="col-span-1 row-span-1 md:col-start-3 md:col-end-7 md:row-span-2 self-center justify-start">
           <p className="text-base md:text-lg text-white dark:text-white leading-8">
-            After years of searching for a career where I could combine my creative and logical/mathematical sides, I have finally
-            found an opportunity in full stack development. I recently pivoted from my thirteen year career in records and
-            information management and as a new graduate from InceptionU’s Full Stack Developer program, I am eager to build
-            intuitive, functional, and beautiful applications that are user-friendly and can enhance people's daily lives.{" "}
+          I recently took a diversion from my thirteen year career in Records and Information Management (RIM) to further my learning and gain new knowledge in different technologies. It was through the Full Stack Developer program at InceptionU that I discovered my love for full stack development and how it could complement my background in RIM. I love being able to combine both my creative and logical/mathematical sides and I am eager to build intuitive, functional, and beautiful applications that are user-friendly and can enhance people's daily lives.{" "}
           </p>
           <br />
           <br />
           <p className="text-base md:text-lg text-white dark:text-white leading-8">
-            Drawing from my background and love of mathematics, I enjoy using my problem solving and analysis abilities to help
-            deliver business solutions that increase efficiency and improve operations. I am extremely self-disciplined and
-            utilize my attention to detail, and communication skills to consistently deliver outstanding results.
+          Drawing from my background and love of mathematics, I enjoy using my problem solving and analysis abilities to help deliver business solutions that increase efficiency and improve operations. On the RIM side, I have a proven ability in developing and implementing policies and practices in records management that streamline operations while ensuring compliance with private and public sector legal, regulatory, and business requirements. I am extremely self-disciplined and utilize my detail oriented approach and communication skills to consistently deliver outstanding results.
           </p>
         </div>
       </div>
