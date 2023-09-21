@@ -6,7 +6,7 @@ const Header = ({ isOpen, toggleMenu, toggleTheme }) => {
       <div className="header dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#620646] to-[#1d1d1d]">
         <div className="flex flex-wrap gap-5 text-6xl text-center justify-center items-center">
           {/* bg-[#f4dddd] dark:bg-gradient-to-br from-[#1d1d1d]  to-[#9b0b71] */}
-          <div className="pt-40 pb-10 min-w-full text-base text-2xl sm:text-6xl font-medium dark:text-white font-lobster text-center text-[#2e2c2e]">
+          <div className="pt-40 pb-10 min-w-full text-2xl sm:text-6xl font-medium dark:text-white font-lobster text-center text-[#2e2c2e]">
             Jennifer Gajdos-Bomben
           </div>
           {/* <div className="flex flex-wrap"> */}

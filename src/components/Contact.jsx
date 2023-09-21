@@ -18,7 +18,7 @@ const Contact = () => {
     <div className="p-10">
       {/* dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#28031e] to-[#1d1d1d]  */}
       {/* className="bg-[url('/src/assets/banner-laptop.png')]"> */}
-      <h1 className="text-3xl sm:text-5xl text-black font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-purple-800 dark:text-transparent dark:bg-gradient-to-r from-rose-400 to-purple-800 text-center">
+      <h1 className="text-3xl sm:text-5xl text-[#2e2c2e] font-bold  dark:text-white text-center">
         Contact
       </h1>
       <div className="flex justify-center">

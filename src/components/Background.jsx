@@ -4,7 +4,7 @@ import { education, work } from "../data";
 const Background = () => {
   return (
     <div className="p-10 text-black dark:text-white">
-      <h1 className="text-3xl sm:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-purple-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 text-center leading-tight pb-10">
+      <h1 className="text-3xl sm:text-5xl font-bold bg-clip-text text-[#2e2c2e] dark:text-white text-center leading-tight pb-10">
         Background
       </h1>
 

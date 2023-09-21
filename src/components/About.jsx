@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="w-full p-10">
-      <h1 className="text-3xl sm:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-purple-800 dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r from-rose-300 to-purple-800 text-center pb-10 ">
+      <h1 className="text-3xl sm:text-5xl font-bold text-white text-center pb-10">
         About Me
       </h1>
       <div className="w-full grid grid-cols-1 grid-row-3 gap-12 md:grid-cols-6 md:grid-rows-2 justify-center items-center">
