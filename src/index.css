@@ -71,7 +71,7 @@ body {
     height: 60px;
     animation-delay: 5s;
     animation-duration: 12s;
-    /* background: rgba(148, 17, 229, 0.2); */
+    background: rgba(143, 132, 132, 0.2);
   }
 
   .circles div:nth-child(3) {
@@ -79,7 +79,7 @@ body {
     width: 20px;
     height: 20px;
     animation-delay: 4s;
-    /* background: rgb(182, 26, 182); */
+    /* background: rgba(143, 132, 132, 0.2); */
   }
 
   .circles div:nth-child(4) {
@@ -87,7 +87,7 @@ body {
     width: 50px;
     height: 50px;
     animation-delay: 18s;
-    /* background: blue; */
+    background: rgba(143, 132, 132, 0.2);
   }
 
   .circles div:nth-child(5) {
@@ -96,7 +96,7 @@ body {
     height: 20px;
     animation-delay: 0s;
     animation-duration: 20s;
-    /* background: black; */
+    background: rgba(143, 132, 132, 0.2);
   }
 
   .circles div:nth-child(6) {
@@ -112,7 +112,7 @@ body {
     width: 50px;
     height: 50px;
     animation-delay: 7s;
-    /* background: rgb(225, 69, 12); */
+    background: rgba(143, 132, 132, 0.2);
   }
 
   .circles div:nth-child(8) {
@@ -138,7 +138,7 @@ body {
     width: 45px;
     height: 45px;
     animation-delay: 1s;
-    /* background: blue; */
+   background: rgba(143, 132, 132, 0.2);
   }
 
   .circles div:nth-child(11) {
@@ -156,6 +156,7 @@ body {
     height: 10px;
     animation-delay: 0s;
     animation-duration: 11s;
+    background: rgba(143, 132, 132, 0.2);    
   }
   .circles div:nth-child(13) {
     left: 63%;
@@ -172,7 +173,7 @@ body {
     height: 75px;
     animation-delay: 6s;
     animation-duration: 15s;
-    /* background: turquoise; */
+    background: rgba(143, 132, 132, 0.2);
   }
 
   .circles div:nth-child(14) {
