@@ -12,13 +12,16 @@ const Contact = () => {
     console.log("Data", name, email, message);
     e.preventDefault();
 
-    const docRef = await addDoc(collection(db, "contact-form"), {
-      name: name,
-      email: email,
-      message: message,
-    });
-    console.log("document written with ID: ", docRef.id);
-
+    try {
+      const docRef = await addDoc(collection(db, "contact_info"), {
+        name: name,
+        email: email,
+        message: message,
+      });
+      console.log("document written with ID: ", docRef.id);
+    } catch (error) {
+      console.log("error adding document: ", error);
+    }
     setName("");
     setEmail("");
     setMessage("");
