@@ -1,14 +1,24 @@
 import React from "react";
 import { useState, useRef } from "react";
+import { db } from "../Firebase";
+import { addDoc, collection } from "firebase/firestore";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const submitHandler = (e) => {
+  const submitHandler = async (e) => {
     console.log("Data", name, email, message);
     e.preventDefault();
+
+    const docRef = await addDoc(collection(db, "contact-form"), {
+      name: name,
+      email: email,
+      message: message,
+    });
+    console.log("document written with ID: ", docRef.id);
+
     setName("");
     setEmail("");
     setMessage("");
@@ -18,9 +28,7 @@ const Contact = () => {
     <div className="p-10">
       {/* dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#28031e] to-[#1d1d1d]  */}
       {/* className="bg-[url('/src/assets/banner-laptop.png')]"> */}
-      <h1 className="text-3xl sm:text-5xl text-[#2e2c2e] font-bold  dark:text-white text-center">
-        Contact
-      </h1>
+      <h1 className="text-3xl sm:text-5xl text-[#2e2c2e] font-bold  dark:text-white text-center">Contact</h1>
       <div className="flex justify-center">
         <div className="w-full max-w-xl">
           <form
