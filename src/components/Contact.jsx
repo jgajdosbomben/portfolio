@@ -14,7 +14,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Email js setup
+    // Emailjs setup
     emailjs.sendForm("service_wj77ttq", "template_9z931e2", form.current, "Fkc8Tki7G1b7GXpY2").then(
       (result) => {
         console.log(result.text);
