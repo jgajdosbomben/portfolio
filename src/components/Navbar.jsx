@@ -41,7 +41,8 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           <div className="flex items-center justify-end basis-28"></div>
           <button
             onClick={toggleTheme}
-            className="p-2">
+            className="p-2"
+            aria-label="toggle night/day mode">
             {darkMode ? (
               <FiSun
                 size={22}
@@ -60,6 +61,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             <button
               type="button"
               className=""
+              aria-label="mobile menu"
               aria-controls=",onile-menu"
               aria-expanded="false"
               onClick={toggleMenu}>
