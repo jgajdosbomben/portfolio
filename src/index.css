@@ -18,10 +18,12 @@ body {
 @layer components {
   .main-area {
     min-height: 100vh;
+    max-height: 100vh;
   }
 
   .header {
     min-height: 100vh;
+    max-height: 100vh;
   }
 
   .circles {
@@ -30,7 +32,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
   }
 
@@ -138,7 +140,7 @@ body {
     width: 45px;
     height: 45px;
     animation-delay: 1s;
-   background: rgba(143, 132, 132, 0.2);
+    background: rgba(143, 132, 132, 0.2);
   }
 
   .circles div:nth-child(11) {
@@ -156,7 +158,7 @@ body {
     height: 10px;
     animation-delay: 0s;
     animation-duration: 11s;
-    background: rgba(143, 132, 132, 0.2);    
+    background: rgba(143, 132, 132, 0.2);
   }
   .circles div:nth-child(13) {
     left: 63%;
@@ -233,5 +235,16 @@ body {
   .grid-li > li:hover {
     box-shadow: inset 200px 0 0 0 #6a6365;
     color: white;
+  }
+
+  @media (min-width: 0) and (max-width: 304px) {
+    .circles {
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
   }
 }
