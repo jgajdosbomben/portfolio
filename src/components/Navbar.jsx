@@ -45,13 +45,13 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             aria-label="toggle night/day mode">
             {darkMode ? (
               <FiSun
-                size={22}
+                size={26}
                 color={"white"}
                 className="cursor-pointer hover:fill-rose-200"
               />
             ) : (
               <FiMoon
-                size={24}
+                size={26}
                 color={"white"}
                 className="cursor-pointer hover:fill-rose-200"
               />
@@ -62,7 +62,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               type="button"
               className=""
               aria-label="mobile menu"
-              aria-controls=",onile-menu"
+              aria-controls="mobile-menu"
               aria-expanded="false"
               onClick={toggleMenu}>
               <FiMenu
