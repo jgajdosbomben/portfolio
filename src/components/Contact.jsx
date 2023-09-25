@@ -107,7 +107,8 @@ const Contact = () => {
               <button
                 className="bg-[#6a6365] hover:bg-[#620646] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 type="submit"
-                value="Send">
+                value="Send"
+                aria-label="Submit">
                 Submit
               </button>
             </div>
