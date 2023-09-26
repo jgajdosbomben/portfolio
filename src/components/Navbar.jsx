@@ -41,7 +41,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           <div className="flex items-center justify-end basis-28"></div>
           <button
             onClick={toggleTheme}
-            className="px-5 py-3"
+            className="p-3"
             aria-label="toggle night/day mode">
             {darkMode ? (
               <FiSun
@@ -60,7 +60,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
           <div className="md:hidden">
             <button
               type="button"
-              className="px-5 py-3"
+              className="p-3"
               aria-label="mobile menu"
               aria-controls="mobile-menu"
               aria-expanded="false"
@@ -80,7 +80,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
         <div
           className={`${isOpen ? "block pt-4" : "hidden"} md:hidden`}
           id="mobile-menu z-10">
-          <div className="flex flex-col gap-4 text-md font-montserrat text-white dark:white z-10">
+          <div className="flex flex-col gap-6 text-md font-montserrat text-white dark:white z-10">
             <a
               href="#home"
               onClick={toggleMenu}
