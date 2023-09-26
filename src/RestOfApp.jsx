@@ -9,9 +9,8 @@ import Skills from "./components/Skills";
 import Header from "./components/Header";
 import Background from "./components/Background";
 import Footer from "./components/Footer";
-import { projects } from "./data.js";
 
-function RestOfApp(projects) {
+function RestOfApp() {
   const [darkMode, setDarkMode] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -62,21 +61,7 @@ function RestOfApp(projects) {
             id="projects"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
             className="w-full">
-            <Projects
-              key={projects.id}
-              name={projects.name}
-              url={projects.url}
-              description={projects.description}
-              img={projects.img}
-              tech1={projects.tech1}
-              tech2={projects.tech2}
-              tech3={projects.tech3}
-              tech4={projects.tech4}
-              tech5={projects.tech5}
-              tech6={projects.tech6}
-              tech7={projects.tech7}
-              tech8={projects.tech8}
-            />
+            <Projects />
           </section>
           {/* <section
               id="skills"
