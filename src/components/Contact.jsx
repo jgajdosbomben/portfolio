@@ -62,10 +62,11 @@ const Contact = () => {
             <div className="mb-4">
               <label
                 className="block text-gray-700 dark:text-white text-sm font-bold mb-2"
-                htmlFor="name">
-                Name
+                htmlFor="full-name">
+                First and Last Name
               </label>
               <input
+                id="full-name"
                 className="shadow appearance-none border rounded w-full px-3 py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -78,10 +79,11 @@ const Contact = () => {
               <br />
               <label
                 className="block text-gray-700 dark:text-white text-sm font-bold mb-2"
-                htmlFor="email">
-                Email
+                htmlFor="email-address">
+                Email Address
               </label>
               <input
+                id="email-address"
                 className="shadow appearance-none border rounded w-full px-3 py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -98,6 +100,7 @@ const Contact = () => {
                 Message
               </label>
               <textarea
+                id="message"
                 className="shadow appearance-none border rounded w-full px-3 py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 value={message}
                 placeholder="Message"
