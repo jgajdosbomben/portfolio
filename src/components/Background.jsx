@@ -1,5 +1,4 @@
 import React from "react";
-import { education, work } from "../data";
 
 const Background = () => {
   return (
