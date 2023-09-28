@@ -1,34 +1,42 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useState, useRef } from "react";
 import { db } from "../Firebase";
 import { addDoc, collection } from "firebase/firestore";
 import emailjs from "@emailjs/browser";
+import { Alert } from "@material-tailwind/react";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [showAlert, setShowAlert] = useState(false);
 
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     // Emailjs setup
     emailjs.sendForm("service_wj77ttq", "template_9z931e2", form.current, "Fkc8Tki7G1b7GXpY2").then(
       (result) => {
         console.log(result.text);
+        setShowAlert(true);
       },
       (error) => {
         console.log(error.text);
       }
     );
+    setShowAlert(true);
     e.target.reset();
     setName("");
     setEmail("");
     setMessage("");
   };
 
+  // Event handler to close the alert
+  const handleCloseAlert = () => {
+    setShowAlert(false);
+  };
   // const submitHandler = async (e) => {
   //   console.log("Data", name, email, message);
   //   e.preventDefault();
@@ -47,6 +55,21 @@ const Contact = () => {
   //   setEmail("");
   //   setMessage("");
   // };
+  function Icon() {
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="white"
+        className="h-6 w-6">
+        <path
+          fillRule="evenodd"
+          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+          clipRule="evenodd"
+        />
+      </svg>
+    );
+  }
 
   return (
     <div className="p-10">
@@ -57,7 +80,7 @@ const Contact = () => {
         <div className="w-full max-w-xl">
           <form
             className="shadow-md rounded px-8 pt-6 pb-8 mb-4"
-            onSubmit={sendEmail}
+            onSubmit={handleSubmit}
             ref={form}>
             <div className="mb-4">
               <label
@@ -117,6 +140,20 @@ const Contact = () => {
                 aria-label="Submit">
                 Submit
               </button>
+              {showAlert && (
+                <Alert
+                  color="black"
+                  icon={<Icon />}
+                  open={open}
+                  animate={{
+                    mount: { y: 0 },
+                    unmount: { y: 100 },
+                  }}
+                  className="rounded-none border-l-4 border-white bg-[#620646] font-medium text-white"
+                  onClose={handleCloseAlert}>
+                  Contact form submitted successfully.
+                </Alert>
+              )}
             </div>
           </form>
         </div>
