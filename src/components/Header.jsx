@@ -18,17 +18,8 @@ const Header = ({ isOpen, toggleMenu, toggleTheme }) => {
           </div>
           {/* </div> */}
         </div>
-        {/* <h2 className="text-4xl text-black dark:text-white text-center font-montserrat  py-12">Full Stack Developer </h2> */}
-        {/* <br /> */}
-        {/* <button className="rounded-sm bg-[#343434] hover:bg-[#e8b9b9] border-solid border-2 border-black font-montserrat  text-white text-xl py-2 px-8 z-1000">
-            Contact Me
-          </button> */}
-        {/* <div className="col-span-1 row-span- md:col-span-2 md:row-span-5">
-          <img
-            src="/src/assets/websitephoto.png"
-            alt="personal-image"
-            className="object-cover w-full h-full placeholder:-top-5 md:-top-10"></img>
-        </div> */}
+
+        {/* Circles animation div */}
         <div className="circles">
           <div></div>
           <div></div>
