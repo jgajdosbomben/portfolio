@@ -48,19 +48,19 @@ function RestOfApp() {
           </section>
           <section
             id="about"
-            className="w-full h-full min-h-[100vh] bg-[#2e2c2e] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#28031e] to-[#1d1d1d]">
+            className="w-full h-full min-h-[100vh] scroll-mt-12 bg-[#2e2c2e] dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#28031e] to-[#1d1d1d]">
             <About />
           </section>
           <section
             id="background"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full h-full min-h-[100vh]">
+            className="w-full scroll-mt-12">
             <Background />
           </section>
           <section
             id="projects"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full">
+            className="w-full h-full min-h-[100vh] scroll-mt-12">
             <Projects />
           </section>
           {/* <section
@@ -72,7 +72,7 @@ function RestOfApp() {
           <section
             id="contact"
             // className="w-full h-full min-h-[100vh] bg-gradient-to-r from-[#ffcccc] via-[#ffddcc] to-[#fbe9ed]">
-            className="w-full h-full">
+            className="w-full h-full scroll-mt-12">
             {/* bg-[url('/src/assets/banner-laptop.png')] */}
             <Contact />
           </section>

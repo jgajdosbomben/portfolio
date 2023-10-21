@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="w-full p-10">
-      <h1 className="text-3xl sm:text-5xl font-bold text-white text-center pb-10">
+      <h1 className="text-3xl sm:text-5xl font-bold text-white text-center">
         About Me
       </h1>
       <div className="w-full grid grid-cols-1 grid-row-3 gap-12 md:grid-cols-6 md:grid-rows-2 justify-center items-center">
@@ -11,7 +11,7 @@ const About = () => {
           <img
             src="../websitephoto.png"
             alt="personal-image"
-            className="blob object-cover w-100% h-100% placeholder:-top-5 md:-top-10"></img>
+            className="blob object-cover w-100% h-100% placeholder:-top-5 md:-top-10 pt-5"></img>
         </div>
         <div className="col-span-1 row-span-1 md:col-start-3 md:col-end-7 md:row-span-2 self-center justify-start">
           <p className="text-base md:text-lg text-white dark:text-white leading-8">
