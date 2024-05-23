@@ -11,7 +11,7 @@ const Header = ({ isOpen, toggleMenu, toggleTheme }) => {
           </div>
           {/* <div className="flex flex-wrap"> */}
           <div className="p-5 min-w-full text-xl sm:text-2xl text-black  dark:text-white font-montserrat text-center ">
-            Full Stack Developer | Records and Information Manager
+            Records and Information Analyst | Aspiring Full Stack Developer
           </div>
           <div className="p-5 min-w-full text-md sm:text-lg text-black  dark:text-white text-center">
             Passionate about blending creativity with technical solutions.
