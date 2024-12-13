@@ -7,12 +7,12 @@ const About = () => {
         About Me
       </h1>
       <div className="w-full grid grid-cols-1 grid-row-3 gap-12 md:grid-cols-6 md:grid-rows-2 justify-center items-center">
-        <div className="col-span-1 row-span-1 sm:col-span-2 md:row-span-2">
+        {/* <div className="col-span-1 row-span-1 sm:col-span-2 md:row-span-2">
           <img
             src="../websitephoto.png"
             alt="personal-image"
             className="blob object-cover w-100% h-100% placeholder:-top-5 md:-top-10 pt-5"></img>
-        </div>
+        </div> */}
         <div className="col-span-1 row-span-1 md:col-start-3 md:col-end-7 md:row-span-2 self-center justify-start">
           <p className="text-base md:text-lg text-white dark:text-white leading-8">
           I recently took a diversion from my thirteen year career in Records and Information Management (RIM) to further my learning and gain new knowledge in different technologies. It was through the Full Stack Developer program at InceptionU that I discovered full stack development and how it could complement my background in RIM. I love being able to combine both my creative and logical/mathematical sides.{" "}
